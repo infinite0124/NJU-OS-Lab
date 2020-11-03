@@ -1,0 +1,4 @@
+bootloader/boot.c: In function 'void bootMain()':
+bootloader/boot.c:10:24: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+   readSect((void*)(elf + i*512), 1+i);
+                    ~~~~^~~~~~~
